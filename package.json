@@ -1,0 +1,14 @@
+{
+  "name":"capacity-connect",
+  "private":true,
+  "version":"2.0.0",
+  "workspaces":["client","server"],
+  "scripts":{
+    "dev":"concurrently \"npm run dev --workspace capacity-connect-server\" \"npm run dev --workspace capacity-connect-client\"",
+    "install:all":"npm install",
+    "build":"npm run build --workspace capacity-connect-client && npm run build --workspace capacity-connect-server",
+    "test":"npm run test --workspace capacity-connect-server",
+    "typecheck":"npm run build --workspace capacity-connect-client && npm run build --workspace capacity-connect-server"
+  },
+  "devDependencies":{"concurrently":"^9.1.2"}
+}

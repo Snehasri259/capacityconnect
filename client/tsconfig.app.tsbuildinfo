@@ -1,0 +1,1 @@
+{"root":["./src/main.tsx","./src/components/brand.tsx","./src/components/ui.tsx","./src/layouts/AppShell.tsx","./src/lib/api.ts","./src/lib/types.ts","./src/pages/Auth.tsx","./src/pages/Dashboards.tsx","./src/pages/FeaturePages.tsx"],"errors":true,"version":"5.8.3"}

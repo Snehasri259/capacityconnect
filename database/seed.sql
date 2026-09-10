@@ -1,0 +1,1 @@
+-- Production seed is intentionally minimal. Use Supabase Auth for identities and insert organization/role/competency/course records through an authorized seed script.
